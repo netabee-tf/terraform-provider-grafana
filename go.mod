@@ -5,7 +5,7 @@ go 1.20
 require (
 	github.com/Masterminds/semver/v3 v3.2.1
 	github.com/grafana/amixr-api-go-client v0.0.9
-	github.com/grafana/grafana-api-golang-client v0.23.0
+	github.com/grafana/grafana-api-golang-client v0.24.0
 	github.com/grafana/machine-learning-go-client v0.5.0
 	github.com/grafana/synthetic-monitoring-agent v0.16.5
 	github.com/grafana/synthetic-monitoring-api-go-client v0.7.0
@@ -80,6 +80,3 @@ require (
 	google.golang.org/grpc v1.56.2 // indirect
 	google.golang.org/protobuf v1.31.0 // indirect
 )
-
-// TODO: remove this replace operator before merge PR https://github.com/grafana/grafana/issues/74594
-replace github.com/grafana/grafana-api-golang-client => github.com/grafana/grafana-api-golang-client v0.23.1-0.20230908175004-b48e5446cf4e
